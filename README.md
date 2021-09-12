@@ -30,8 +30,8 @@ path/to/imagenet/
 ## Package dependencies
 We provide instructions how to install dependencies via [conda](https://docs.anaconda.com/anaconda/install/). 
 ```
-git clone https://github.com/anonymous1fire/LordFormer.git
-cd LordFormer
+git clone https://github.com/anonymous1fire/AMMFormer.git
+cd AMMFormer
 conda env create -f environment.yml
 conda activate detr
 conda install -c conda-forge tqdm
@@ -74,7 +74,7 @@ cd ../ImageNet
 ### Validation
 One GPU is required.
 
-Download pretrained AMM-T2T-VIT-39 at [here](https://www.dropbox.com/s/9uzu44gblz6i8n3/lord-vit-39.pth.tar) and put it under pretrained folder for obtain validation accuracy.
+Download pretrained AMM-T2T-VIT-39 at [here](https://www.dropbox.com/s/9uzu44gblz6i8n3/amm-t2t-vit-39.pth.tar) and put it under pretrained folder for obtain validation accuracy.
 ```
 mv amm-t2t-vit-39.pth ./pretrained
 ```
