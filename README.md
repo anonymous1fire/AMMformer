@@ -45,6 +45,7 @@ cd COCO
 ```
 Download pretrained DETR-ResNet50 at [here](https://www.dropbox.com/s/ir0boozs2nba9rf/detr-resnet50.pth) and put it under pretrained folder.
 ```
+mkdir ./pretrained
 mv detr-resnet50.pth ./pretrained
 ```
 Set the coco dataset path (/path/to/coco) to the path you extracted in run_ammformer_eval.sh, run_linformer_eval.sh, run_nystrom_eval.sh, and run_performer_eval.sh.
@@ -76,6 +77,7 @@ One GPU is required.
 
 Download pretrained AMM-T2T-VIT-39 at [here](https://www.dropbox.com/s/9uzu44gblz6i8n3/amm-t2t-vit-39.pth.tar) and put it under pretrained folder for obtain validation accuracy.
 ```
+mkdir ./pretrained
 mv amm-t2t-vit-39.pth ./pretrained
 ```
 Set the imagenet data path (/path/to/imagenet) to the path you extracted in the following scripts and run it.
