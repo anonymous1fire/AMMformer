@@ -30,8 +30,8 @@ path/to/imagenet/
 ## Package dependencies
 We provide instructions how to install dependencies via [conda](https://docs.anaconda.com/anaconda/install/). 
 ```
-git clone https://github.com/anonymous1fire/AMMFormer.git
-cd AMMFormer
+git clone https://github.com/anonymous1fire/AMMformer.git
+cd AMMformer
 conda env create -f environment.yml
 conda activate detr
 conda install -c conda-forge tqdm
