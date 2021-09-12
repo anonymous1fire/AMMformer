@@ -82,7 +82,7 @@ mv amm-t2t-vit-39.pth ./pretrained
 ```
 Set the imagenet data path (/path/to/imagenet) to the path you extracted in the following scripts and run it.
 ```
-CUDA_VISIBLE_DEVICES=0 python main.py path/to/imagenet --model amm_t2t_vit_39 -b 64 --eval_checkpoint ./pretrained/att-t2t-vit-39.pth.tar
+CUDA_VISIBLE_DEVICES=0 python main.py path/to/imagenet --model amm_t2t_vit_39 -b 64 --eval_checkpoint ./pretrained/amm-t2t-vit-39.pth.tar
 ```
 ### Training
 4 GPUs with 11GB are required to train AMM-T2T-VIT-39 for achieving  **82.2% top-1 accuray** on ImageNet, which only uses **41% parameters** and **50% FLOPs** of T2T-ViT\_t-24!
